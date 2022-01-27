@@ -16,6 +16,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <h1>Pokémon</h1>
+        <h3>Mon premier commit</h3>
         {/* <CardPokemon idPokemon={1}></CardPokemon> */}
         <FormNb handler={this.handlernb}></FormNb>
         <ListePokemons nb={this.state.nb}></ListePokemons>
